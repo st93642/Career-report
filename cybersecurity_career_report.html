@@ -1,0 +1,825 @@
+                    <div class="skill-card">
+                        <h4>Speech Impairment</h4>
+                        <p><strong>Challenge:</strong> Traditional roles may emphasize verbal communication</p>
+                        <p><strong>Opportunity:</strong> Focus on technical specialist roles (SOC Analyst, Detection Engineer, Digital Forensics, Bug Bounty Hunter) that prioritize written documentation. Modern remote work culture supports asynchronous, text-based collaboration. Request accommodations during interviews and leverage disability services.</p>
+                    </div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Professional Career Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .meta-info {
+            background: #f8f9fa;
+            padding: 20px 40px;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .meta-item strong {
+            color: #1e3c72;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #1e3c72;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .section h3 {
+            color: #2a5298;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .skill-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+        
+        .skill-card h4 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+            margin: 30px 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 30px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -46px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #667eea;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #667eea;
+        }
+        
+        .timeline-item h4 {
+            color: #1e3c72;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+        
+        .cert-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 5px 5px 5px 0;
+            font-weight: 500;
+        }
+        
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .vignette {
+            background: #f8f9fa;
+            border-left: 4px solid #28a745;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 4px;
+            font-style: italic;
+        }
+        
+        .vignette .time {
+            font-weight: bold;
+            color: #28a745;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .meta-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Cybersecurity Professional Career Report</h1>
+            <p class="subtitle">A Comprehensive Roadmap to Security Engineering & Incident Response Excellence</p>
+        </div>
+        
+        <div class="meta-info">
+            <div class="meta-item">
+                <strong>Author:</strong> Igors Olšeiņikovs
+            </div>
+            <div class="meta-item">
+                <strong>Course:</strong> Computer Science (EN, Part-time)
+            </div>
+            <div class="meta-item">
+                <strong>Date:</strong> October 28, 2025
+            </div>
+        </div>
+        
+        <div class="content">
+            <section class="section">
+                <h2>📋 Executive Summary</h2>
+                <div class="highlight-box">
+                    <p>Cybersecurity is one of the most resilient, fast-evolving technology careers, offering strong long-term demand, diverse specializations, and meaningful work protecting people, organizations, and critical infrastructure. This report provides a clear career goal, identifies required skills, connects them to academic coursework and practical resources, analyzes the job market using current data, and delivers a detailed 5-year action plan to reach competence and employability in defensive security, cloud security, and incident response.</p>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2>🎯 Career Goal: Security Engineer & Technical Specialist</h2>
+                <p>My goal is to become a <strong>security engineer and technical specialist with strong AWS cloud security skills</strong>—capable of engineering secure architectures, developing detection systems, analyzing threats, and implementing technical improvements that reduce risk across hybrid cloud environments. Given my speech impairment, I am strategically targeting roles that emphasize <strong>written communication, technical analysis, and automation</strong> over verbal interactions.</p>
+                
+                <h3>Ideal Role Characteristics</h3>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>SOC Analyst (Tier 1-2):</strong> Monitoring dashboards, investigating alerts, documenting findings in ticketing systems—primarily written reports</li>
+                        <li><strong>Detection Engineer:</strong> Creating and tuning SIEM rules, developing automation scripts—technical work with minimal meetings</li>
+                        <li><strong>Security Researcher/Analyst:</strong> Threat intelligence analysis, malware analysis, vulnerability research—independent technical work</li>
+                        <li><strong>Digital Forensics Investigator:</strong> Analyzing evidence, recovering data, documenting findings in detailed written reports</li>
+                        <li><strong>Penetration Tester/Ethical Hacker:</strong> Technical testing, vulnerability identification, comprehensive written reports—limited client interaction</li>
+                        <li><strong>Bug Bounty Hunter:</strong> Independent work identifying vulnerabilities, submitting detailed written reports</li>
+                    </ul>
+                </div>
+                
+                <h3>Medium-Term Objectives (Years 3-5)</h3>
+                <ul>
+                    <li>Progress through roles: SOC Analyst (Tier 1) → Detection Engineer or Security Analyst (Tier 2) → AWS Cloud Security Specialist</li>
+                    <li>Develop complementary focus on AWS cloud security (EC2, S3, IAM, CloudTrail, GuardDuty, Security Hub) and automation</li>
+                    <li>Master threat-informed defense using MITRE ATT&CK framework</li>
+                    <li>Build expertise in areas requiring deep technical focus rather than frequent verbal communication</li>
+                </ul>
+                
+                <h3>Long-Term Vision (Years 5+)</h3>
+                <p>Advance toward specialized technical roles such as <strong>Senior Detection Engineer, AWS Security Architect, or Cloud Security Specialist</strong>—positions that leverage technical depth and written documentation skills while minimizing requirements for extensive verbal communication.</p>
+                
+                <div class="highlight-box">
+                    <strong>Why This Path?</strong>
+                    <p>These roles align with my strengths and personal circumstances. They emphasize technical expertise, analytical thinking, and written communication—skills where I can excel. SOC Analysts primarily work with dashboards and tickets, Detection Engineers focus on code and rules, and Cloud Security Specialists engineer secure AWS infrastructures. These positions require minimal verbal interaction while offering meaningful work protecting digital infrastructure. My existing foundation in Oracle Cloud, Red Hat system administration, and development provides a strong technical base for transitioning into AWS-focused security engineering.</p>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2>🔧 Required Skills & Knowledge</h2>
+                
+                <h3>Technical Foundations</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4>🌐 Networking & Operating Systems</h4>
+                        <p>TCP/IP, routing, DNS, VPNs; Windows and Linux administration, logging, and hardening. Essential for SOC investigations and engineering secure configurations.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>🏗️ Security Engineering</h4>
+                        <p>Identity and access management, segmentation, least privilege, cryptography, secure configuration, and zero-trust design patterns including SASE/SSE concepts.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>☁️ Cloud Security (AWS)</h4>
+                        <p>AWS IAM, EC2 security, S3 bucket policies, CloudTrail, GuardDuty, Security Hub, AWS Config, VPC security, KMS encryption, and hybrid threat protection across multi-cloud environments.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>🔍 Threat Detection & IR</h4>
+                        <p>SIEM content development, EDR telemetry, triage, scoping, containment, eradication, recovery, and post-incident improvements.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>🎯 Threat-Informed Defense</h4>
+                        <p>Using MITRE ATT&CK to map adversary tactics/techniques to detections and controls, improving coverage and response playbooks.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>💻 Application Security</h4>
+                        <p>Understanding OWASP Top 10 risks, SDLC security touchpoints, basic code review, and DevSecOps practices to reduce exploitable flaws.</p>
+                    </div>
+                </div>
+                
+                <h3>Essential Tools & Platforms</h3>
+                <ul>
+                    <li><strong>SIEM/SOAR:</strong> Splunk, Elastic Stack, AWS Security Lake, Sumo Logic</li>
+                    <li><strong>EDR/XDR:</strong> CrowdStrike Falcon, SentinelOne, Carbon Black</li>
+                    <li><strong>Cloud Security:</strong> AWS GuardDuty, Security Hub, CloudTrail, AWS Config, Prowler</li>
+                    <li><strong>Network Analysis:</strong> Wireshark, Zeek, tcpdump</li>
+                    <li><strong>Vulnerability Management:</strong> AWS Inspector, Nessus, Qualys, OpenVAS</li>
+                    <li><strong>Scripting:</strong> Python and Bash for automation and AWS Lambda functions</li>
+                    <li><strong>Red-Team Tools:</strong> Burp Suite, Nmap, Metasploit (for adversary mindset)</li>
+                </ul>
+                
+                <h3>Certification Roadmap</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>✅ Completed Foundation (2020-2025)</h4>
+                        <span class="cert-badge">✓ freeCodeCamp Responsive Web Design</span>
+                        <span class="cert-badge">✓ JavaScript Algorithms & Data Structures</span>
+                        <span class="cert-badge">✓ Microverse Ruby/Databases</span>
+                        <span class="cert-badge">✓ Red Hat System Administrator (RH134)</span>
+                        <span class="cert-badge">✓ MuleSoft Certified Developer</span>
+                        <span class="cert-badge">✓ Oracle Cloud Infrastructure Foundations 2021</span>
+                        <span class="cert-badge">✓ Cisco Introduction to Cybersecurity</span>
+                        <span class="cert-badge">✓ ISC2 Candidate</span>
+                        <span class="cert-badge">✓ Google Cloud Intro to Generative AI</span>
+                        <span class="cert-badge">✓ Data Privacy Fundamentals</span>
+                        <p><strong>Strong foundation established:</strong> System administration (Red Hat), cloud fundamentals (Oracle), development (MuleSoft), cybersecurity basics (Cisco), and data privacy concepts.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 1-2: Security Foundation & AWS Start</h4>
+                        <span class="cert-badge">CompTIA Security+ (SY0-701)</span>
+                        <span class="cert-badge">AWS Certified Cloud Practitioner</span>
+                        <p>Build on existing cloud foundation (Oracle) to master AWS fundamentals, then validate core security knowledge with Security+. Covers: hybrid/cloud, GRC, incident response, identity, and threats. Widely recognized for entry into SOC roles.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 2-3: AWS Cloud Security Specialization</h4>
+                        <span class="cert-badge">AWS Certified Security - Specialty</span>
+                        <p>Deep dive into AWS security engineering: IAM, encryption, monitoring (CloudTrail, GuardDuty), incident response, data protection, and infrastructure security. Leverage existing cloud experience from Oracle certification.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 3-4: Incident Response & Detection</h4>
+                        <span class="cert-badge">GIAC GCIH (Incident Handling)</span>
+                        <p>Validates practical incident handling approaches, tooling, and response workflows with proctored, hands-on emphasis. Complements AWS security skills with defensive response capabilities.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 4-5+: Advanced Leadership</h4>
+                        <span class="cert-badge">CISSP</span>
+                        <p>Broad governance and architecture credential (requires experience; can leverage ISC2 Candidate status and progress to Associate after passing). Validates readiness for senior technical roles.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Optional Technical Stretch</h4>
+                        <span class="cert-badge">OSCP+ or AWS Certified Solutions Architect</span>
+                        <p>Either pursue OSCP+ for deep adversary tradecraft understanding, or AWS Solutions Architect for architectural design skills complementing security expertise.</p>
+                    </div>
+                </div>
+                
+                <h3>Professional Soft Skills</h3>
+                <ul>
+                    <li><strong>Excellent written communication:</strong> Clear documentation in incident reports, technical write-ups, threat analyses, and playbooks</li>
+                    <li><strong>Structured reporting:</strong> Creating detailed findings documents, investigation timelines, and root cause analyses</li>
+                    <li><strong>Asynchronous collaboration:</strong> Effective use of ticketing systems, Slack/Teams messages, email, and documentation platforms</li>
+                    <li><strong>Self-directed learning:</strong> Independently following intelligence sources, advisories, and technology updates</li>
+                    <li><strong>Analytical thinking:</strong> Deep technical analysis and creative problem-solving</li>
+                    <li><strong>Technical documentation:</strong> Creating runbooks, detection logic explanations, and security architecture diagrams</li>
+                </ul>
+                
+                <div class="highlight-box">
+                    <strong>Accommodating Speech Impairment:</strong> Modern cybersecurity work increasingly supports remote collaboration and written communication. Most technical roles involve primarily written reports, ticketing systems, chat platforms, and documentation—with minimal requirements for phone calls or presentations. SOC environments typically use tickets and chat, while detection engineering and threat analysis are largely independent technical work.
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2>🎓 Connection with Academic Program</h2>
+                
+                <h3>CS Courses Mapped to Cybersecurity Skills</h3>
+                <ul>
+                    <li><strong>Computer Networks / Operating Systems:</strong> Packet flows, sockets, process models, filesystems, authentication—directly applicable to SOC triage, EDR telemetry, and system hardening. Build on existing Red Hat system administration experience.</li>
+                    <li><strong>Databases & Data Modeling:</strong> Log storage, SIEM data schemas, building detections with joins and regex; threat hunting queries. Leverage existing Microverse database module knowledge.</li>
+                    <li><strong>Software Engineering / Secure Coding:</strong> Threat modeling, input validation, authentication/authorization patterns using OWASP guidance. Apply existing JavaScript and Ruby development experience.</li>
+                    <li><strong>Cloud Computing (elective):</strong> Identity, network security, encryption key management, and security benchmarks in AWS. Build on Oracle Cloud Infrastructure Foundations certification and transition to AWS.</li>
+                    <li><strong>AI/ML (elective):</strong> Apply to detection (anomaly scoring) and understand adversarial ML risks; valued by modern SOCs. Leverage Introduction to Generative AI knowledge.</li>
+                    <li><strong>Information Security / Cryptography:</strong> Governance, risk, crypto, IAM—aligns with Security+ and CISSP domains. Connect with Data Privacy Fundamentals certification.</li>
+                </ul>
+                
+                <h3>Hands-On Labs & Platforms</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4>TryHackMe & Hack The Box</h4>
+                        <p>Guided and challenge-style labs for SOC, web, and red-team skills. Excellent for building a portfolio of completed rooms/boxes.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>Microsoft Learn / AWS</h4>
+                        <p>Build a personal lab with AWS free tier: GuardDuty, Security Hub, CloudTrail to author detective controls, Lambda automation, and CloudWatch monitoring. Leverage existing Oracle Cloud experience for faster AWS adoption.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>OWASP Projects</h4>
+                        <p>Integrate into coursework and capstones for secure app design and code review checklists.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>MITRE ATT&CK Navigator</h4>
+                        <p>Map detections to techniques; produce an "ATT&CK coverage" heatmap as a capstone deliverable.</p>
+                    </div>
+                </div>
+                
+                <h3>University & External Resources</h3>
+                <ul>
+                    <li><strong>Career Center & Internships:</strong> Target placements in SOCs, MSP/MSSPs, or IT security teams; request roles emphasizing technical analysis and written documentation</li>
+                    <li><strong>CTFs & Hackathons:</strong> Regular competitions reinforce practical skills; technical challenges require minimal verbal communication</li>
+                    <li><strong>Security Clubs:</strong> Participate in hands-on activities and technical workshops</li>
+                    <li><strong>Study Communities:</strong> Security+ and AZ-500 online study groups using Microsoft Learn modules and forums</li>
+                    <li><strong>Accessibility Support:</strong> Work with university disability services to ensure accommodations for interviews and workplace communications</li>
+                    <li><strong>Remote Work Opportunities:</strong> Many cybersecurity roles support remote work with primarily written/asynchronous communication</li>
+                </ul>
+            </section>
+            
+            <section class="section">
+                <h2>📊 Job Market Analysis (2025)</h2>
+                
+                <h3>Demand & Workforce Gap</h3>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <div class="number">4.8M</div>
+                        <div class="label">Global Workforce Gap</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">29%</div>
+                        <div class="label">U.S. Growth Rate (2024-2034)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">$124,910</div>
+                        <div class="label">U.S. Median Salary (2024)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">500K+</div>
+                        <div class="label">Unfilled EU Jobs by 2026</div>
+                    </div>
+                </div>
+                
+                <h3>Key Market Insights</h3>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Global Workforce Gap:</strong> ISC2 2024 Study estimates roughly 4.8 million-person gap worldwide with resource strain, even as teams experiment with AI</li>
+                        <li><strong>U.S. Labor Outlook:</strong> Bureau of Labor Statistics projects 29% growth (2024-2034) for Information Security Analysts, median pay $124,910</li>
+                        <li><strong>Regional Variations:</strong> While some markets cooled YoY, Germany, Spain, Brazil, and Poland saw increases, emphasizing skills-first hiring</li>
+                        <li><strong>European Context:</strong> ENISA Threat Landscape 2024 highlights DDoS and ransomware as top threats, with public administration and transport heavily targeted</li>
+                    </ul>
+                </div>
+                
+                <h3>Current Threat Landscape</h3>
+                <p>Understanding prevalent threats drives control priorities and skill development:</p>
+                <ul>
+                    <li><strong>Phishing/BEC:</strong> Dominant initial access vector requiring identity protection and credential misuse detection</li>
+                    <li><strong>Ransomware:</strong> Steady impact requiring resilience skills and incident response capability</li>
+                    <li><strong>DDoS:</strong> Availability attacks targeting critical infrastructure and services</li>
+                    <li><strong>Supply Chain Attacks:</strong> Increasing sophistication requiring broader security awareness</li>
+                </ul>
+                
+                <h3>Role & Skill Implications</h3>
+                <ul>
+                    <li><strong>Technical-Focused Roles in High Demand:</strong> SOC Analysts, Detection Engineers, and Security Researchers are sought after for their technical expertise, with work primarily conducted through written reports and documentation</li>
+                    <li><strong>Remote Work Growth:</strong> Post-pandemic shift has normalized remote cybersecurity work with asynchronous communication via Slack, Teams, and ticketing systems—ideal for professionals who prefer written communication</li>
+                    <li><strong>Cloud Security Skills Premium:</strong> AWS security skills (GuardDuty, Security Hub, CloudTrail) are highly valued as organizations migrate to cloud-first architectures</li>
+                    <li><strong>Zero-Trust & Cloud-Native Security:</strong> Enterprises shifting to zero-trust access models and cloud-native security controls; engineers with AWS-centric designs and automation skills are in demand</li>
+                    <li><strong>Certifications Matter:</strong> Foundations like Security+ help cross HR filters; AWS Security Specialty differentiates cloud expertise; CISSP validates leadership readiness; GCIH proves practitioner depth</li>
+                    <li><strong>Automation & Scripting Premium:</strong> Professionals who can automate detection and response through Python and Lambda are highly valued—work requiring minimal verbal communication</li>
+                    <li><strong>Bug Bounty & Independent Work:</strong> Growing platforms like HackerOne and Bugcrowd enable fully independent security research with communication primarily through written reports</li>
+                </ul>
+                
+                <div class="highlight-box">
+                    <strong>Bottom Line:</strong> The broader demand is strong, with local fluctuations. A practical, cloud-aware blue-team skill set aligned to ATT&CK, coupled with recognized certifications and a demonstrable lab/portfolio, places candidates competitively for entry-level SOC roles within 12-24 months and for security engineer/IR roles by years 3-5.
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2>📅 Detailed 5-Year Action Plan</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Year 1: Build Strong Foundations</h4>
+                        <strong>Technical Learning:</strong>
+                        <ul>
+                            <li>Complete CS modules in Networks, Operating Systems, and Programming</li>
+                            <li>Create home lab using AWS free tier with EC2, S3, CloudTrail, GuardDuty</li>
+                            <li>Document learning in a lab journal, building on Red Hat and Oracle Cloud experience</li>
+                            <li>Transition cloud skills from Oracle to AWS ecosystem</li>
+                        </ul>
+                        <strong>Certification:</strong>
+                        <ul>
+                            <li>Study and pass AWS Certified Cloud Practitioner (Q1-Q2)</li>
+                            <li>Study and pass CompTIA Security+ (SY0-701) by end of year (Q3-Q4)</li>
+                        </ul>
+                        <strong>Hands-On Practice:</strong>
+                        <ul>
+                            <li>Complete 15+ beginner/intermediate labs on TryHackMe (SOC, blue team, web)</li>
+                            <li>Begin one ATT&CK-mapped detection project using AWS services</li>
+                            <li>Publish short write-ups leveraging existing JavaScript/Ruby development skills</li>
+                        </ul>
+                        <strong>Career Assets:</strong>
+                        <ul>
+                            <li>Update security-focused CV highlighting existing certifications (Red Hat, Oracle Cloud, Cisco, ISC2 Candidate)</li>
+                            <li>Map skills to NICE Work Roles on LinkedIn profile</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 2: SOC-Readiness & AWS Cloud Security</h4>
+                        <strong>Academic & Lab Focus:</strong>
+                        <ul>
+                            <li>Elect Cloud Computing and Secure Software modules</li>
+                            <li>Continue OS, networks, databases with security lens (logging, auth, crypto)</li>
+                            <li>Build comprehensive AWS security lab: GuardDuty + Security Hub + CloudTrail + Config</li>
+                            <li>Create 8-10 detective controls, 3 Lambda automation functions, CloudWatch alerting mapping to 12+ ATT&CK techniques</li>
+                            <li>Leverage Python scripting skills for AWS automation</li>
+                        </ul>
+                        <strong>Certification:</strong>
+                        <ul>
+                            <li>Prepare for and pass AWS Certified Security - Specialty by end of Year 2 or early Year 3</li>
+                        </ul>
+                        <strong>Experience:</strong>
+                        <ul>
+                            <li>Seek summer/term SOC internship or part-time Tier-1 SOC role with MSSP</li>
+                            <li>When applying, emphasize strong written communication skills and preference for technical analysis roles</li>
+                            <li>Request reasonable accommodations for interview process (written responses, extended time for verbal portions)</li>
+                        </ul>
+                        <strong>Deliverables:</strong>
+                        <ul>
+                            <li>Publish GitHub portfolio with AWS security configurations, Python automation scripts, ATT&CK coverage heatmap</li>
+                            <li>Create mini "IR runbook" for phishing → credential theft scenario in AWS environment</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 3: Security Engineer / Incident Response</h4>
+                        <strong>Professional Progression:</strong>
+                        <ul>
+                            <li>Transition to Tier-2 SOC Analyst or Detection Engineer role (internal or MSSP)</li>
+                            <li>Focus on technical specialization: detection engineering, threat intelligence, or digital forensics</li>
+                            <li>Lead detection engineering or identity hardening project (conditional access, MFA, least privilege)—primarily technical work</li>
+                            <li>Build reputation for high-quality written documentation and technical analysis</li>
+                        </ul>
+                        <strong>Certification:</strong>
+                        <ul>
+                            <li>Study and pass GIAC GCIH (incident handling)</li>
+                            <li>Build IR playbook pack (BEC, ransomware, insider misuse) and tabletop exercises</li>
+                        </ul>
+                        <strong>Advanced Labs:</strong>
+                        <ul>
+                            <li>Add adversary emulation: pick 1-2 intrusion sets from ATT&CK</li>
+                            <li>Simulate key techniques and ensure rules detect behaviors (not just IOCs)</li>
+                        </ul>
+                        <strong>Deliverables:</strong>
+                        <ul>
+                            <li>Write public (sanitized) post-incident "lessons learned" report showing business impact translation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 4: Architecture Depth & AWS Mastery</h4>
+                        <strong>Stretch Goals:</strong>
+                        <ul>
+                            <li>Lead AWS cloud security posture initiative (AWS Config rules, CloudFormation security templates, Infrastructure-as-Code security)</li>
+                            <li>Show improvements with metrics (risk reduction, MTTD/MTTR in cloud environment)</li>
+                            <li>Mentor juniors through written documentation, code reviews, and pairing sessions</li>
+                            <li>Contribute to security blog or publish technical write-ups demonstrating AWS security expertise</li>
+                            <li>Consider bug bounty hunting as side project for additional income and skill development</li>
+                        </ul>
+                        <strong>Certification Path:</strong>
+                        <ul>
+                            <li>Start CISSP preparation (leverage ISC2 Candidate status; or take exam and hold Associate status)</li>
+                            <li>Optional: Consider AWS Certified Solutions Architect - Professional to complement security expertise with architectural design skills</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h4>Year 5: Consolidation & Career Advancement</h4>
+                        <strong>Role Target:</strong>
+                        <ul>
+                            <li>Move into Senior Detection Engineer, AWS Security Architect, or specialized Cloud Security Researcher role</li>
+                            <li>Own a technical domain (AWS detection engineering, cloud threat hunting, or security automation)</li>
+                            <li>Focus on deep technical expertise rather than management/leadership roles requiring extensive verbal communication</li>
+                            <li>Consider fully remote positions or independent consulting/bug bounty work</li>
+                        </ul>
+                        <strong>Credentials:</strong>
+                        <ul>
+                            <li>Achieve full CISSP (experience requirement met through work history)</li>
+                            <li>If pursued, consider OSCP+ for adversary perspective or maintain AWS certifications with continuing education</li>
+                        </ul>
+                        <strong>Portfolio Capstone:</strong>
+                        <ul>
+                            <li>Publish "AWS Security Engineering Playbook" compiling:
+                                <ul>
+                                    <li>AWS security baselines and best practices (IAM, encryption, monitoring)</li>
+                                    <li>Detective controls mapped to ATT&CK techniques and ENISA top threats</li>
+                                    <li>IR runbooks for cloud-specific incidents with KPIs and year-over-year improvements</li>
+                                    <li>Infrastructure-as-Code security templates (CloudFormation, Terraform)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2>📊 European Cybersecurity Salary & Demand Data (2025)</h2>
+                
+                <h3>Average Annual Salaries by Country & Role</h3>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <div class="number">€52,428</div>
+                        <div class="label">Germany - Entry SOC Analyst</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">€74,500</div>
+                        <div class="label">Germany - Security Analyst (Avg)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">€60,400</div>
+                        <div class="label">France - Security Analyst (Avg)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">£45,000</div>
+                        <div class="label">UK - Security Analyst (Avg)</div>
+                    </div>
+                </div>
+                
+                <div style="background: white; border: 2px solid #e0e0e0; border-radius: 8px; padding: 30px; margin: 30px 0;">
+                    <h4 style="color: #1e3c72; margin-bottom: 20px; text-align: center;">Europe Cybersecurity Job Market Growth</h4>
+                    <svg viewBox="0 0 800 400" style="width: 100%; height: auto;">
+                        <!-- Background -->
+                        <rect width="800" height="400" fill="#f8f9fa"/>
+                        
+                        <!-- Grid lines -->
+                        <line x1="100" y1="50" x2="100" y2="350" stroke="#ddd" stroke-width="2"/>
+                        <line x1="100" y1="350" x2="750" y2="350" stroke="#ddd" stroke-width="2"/>
+                        
+                        <!-- Y-axis labels (Thousands of jobs) -->
+                        <text x="50" y="60" font-size="14" fill="#666">500k</text>
+                        <text x="50" y="135" font-size="14" fill="#666">400k</text>
+                        <text x="50" y="210" font-size="14" fill="#666">300k</text>
+                        <text x="50" y="285" font-size="14" fill="#666">200k</text>
+                        <text x="50" y="355" font-size="14" fill="#666">100k</text>
+                        
+                        <!-- Demand line (growing) -->
+                        <polyline points="100,200 250,170 400,140 550,110 700,80" 
+                                  fill="none" stroke="#667eea" stroke-width="3"/>
+                        
+                        <!-- Supply line (shortage gap) -->
+                        <polyline points="100,280 250,270 400,265 550,260 700,255" 
+                                  fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5"/>
+                        
+                        <!-- Gap area -->
+                        <polygon points="100,200 250,170 400,140 550,110 700,80 700,255 550,260 400,265 250,270 100,280" 
+                                 fill="rgba(255,193,7,0.2)"/>
+                        
+                        <!-- Data points -->
+                        <circle cx="100" cy="200" r="5" fill="#667eea"/>
+                        <circle cx="250" cy="170" r="5" fill="#667eea"/>
+                        <circle cx="400" cy="140" r="5" fill="#667eea"/>
+                        <circle cx="550" cy="110" r="5" fill="#667eea"/>
+                        <circle cx="700" cy="80" r="5" fill="#667eea"/>
+                        
+                        <circle cx="100" cy="280" r="5" fill="#e74c3c"/>
+                        <circle cx="250" cy="270" r="5" fill="#e74c3c"/>
+                        <circle cx="400" cy="265" r="5" fill="#e74c3c"/>
+                        <circle cx="550" cy="260" r="5" fill="#e74c3c"/>
+                        <circle cx="700" cy="255" r="5" fill="#e74c3c"/>
+                        
+                        <!-- X-axis labels -->
+                        <text x="80" y="375" font-size="14" fill="#666">2021</text>
+                        <text x="230" y="375" font-size="14" fill="#666">2022</text>
+                        <text x="380" y="375" font-size="14" fill="#666">2023</text>
+                        <text x="530" y="375" font-size="14" fill="#666">2024</text>
+                        <text x="675" y="375" font-size="14" fill="#666">2025</text>
+                        
+                        <!-- Legend -->
+                        <line x1="520" y1="20" x2="570" y2="20" stroke="#667eea" stroke-width="3"/>
+                        <text x="580" y="25" font-size="14" fill="#333">Job Demand</text>
+                        
+                        <line x1="520" y1="40" x2="570" y2="40" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5"/>
+                        <text x="580" y="45" font-size="14" fill="#333">Available Talent</text>
+                        
+                        <!-- Gap indicator -->
+                        <text x="280" y="195" font-size="16" font-weight="bold" fill="#f39c12">300k+ Talent Gap</text>
+                    </svg>
+                </div>
+                
+                <h3>Key Market Statistics (Europe, 2025)</h3>
+                <div class="highlight-box">
+                    <ul>
+                        <li><strong>Talent Gap:</strong> Europe currently faces a shortage of 300,000 cybersecurity professionals, with Germany alone expecting 106,000 unfilled positions by 2026</li>
+                        <li><strong>Market Growth:</strong> The European cybersecurity market was valued at $67.79 billion in 2024 and is projected to reach $76.21 billion in 2025, expanding to $194.43 billion by 2033 at a CAGR of 12.42%</li>
+                        <li><strong>Job Growth Rate:</strong> Germany's cybersecurity job market is expanding with a projected CAGR of 8.20% through 2032</li>
+                        <li><strong>Remote Work Opportunities:</strong> About one-third of cybersecurity jobs are remote, supporting asynchronous, written communication</li>
+                        <li><strong>Entry-Level Demand:</strong> Entry-level roles like SOC Analyst have an average salary of around €52,428 per year in Germany, while Junior Penetration Testers earn about €54,678 annually</li>
+                    </ul>
+                </div>
+                
+                <h3>Salary Progression by Experience Level (Germany)</h3>
+                <div style="background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); border-radius: 8px; padding: 25px; margin: 25px 0;">
+                    <svg viewBox="0 0 800 300" style="width: 100%; height: auto;">
+                        <!-- Bars -->
+                        <rect x="100" y="180" width="120" height="100" fill="#667eea" opacity="0.8"/>
+                        <rect x="270" y="120" width="120" height="160" fill="#667eea" opacity="0.85"/>
+                        <rect x="440" y="60" width="120" height="220" fill="#667eea" opacity="0.9"/>
+                        <rect x="610" y="20" width="120" height="260" fill="#667eea" opacity="0.95"/>
+                        
+                        <!-- Values -->
+                        <text x="160" y="170" font-size="18" font-weight="bold" fill="#1e3c72" text-anchor="middle">€52k</text>
+                        <text x="330" y="110" font-size="18" font-weight="bold" fill="#1e3c72" text-anchor="middle">€74k</text>
+                        <text x="500" y="50" font-size="18" font-weight="bold" fill="#1e3c72" text-anchor="middle">€97k</text>
+                        <text x="670" y="10" font-size="18" font-weight="bold" fill="#1e3c72" text-anchor="middle">€121k</text>
+                        
+                        <!-- Labels -->
+                        <text x="160" y="295" font-size="14" fill="#333" text-anchor="middle">Entry-Level</text>
+                        <text x="330" y="295" font-size="14" fill="#333" text-anchor="middle">Mid-Level</text>
+                        <text x="500" y="295" font-size="14" fill="#333" text-anchor="middle">Senior</text>
+                        <text x="670" y="295" font-size="14" fill="#333" text-anchor="middle">Expert</text>
+                    </svg>
+                </div>
+                
+                <h3>Role-Specific Opportunities for Technical Focus</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4>SOC Analyst</h4>
+                        <p><strong>Avg Salary (Germany):</strong> €52k - €74k</p>
+                        <p><strong>Communication:</strong> Primarily ticketing systems, written reports, and dashboard monitoring</p>
+                        <p><strong>Demand:</strong> High - critical frontline defense role</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>Detection Engineer</h4>
+                        <p><strong>Avg Salary (Germany):</strong> €65k - €90k</p>
+                        <p><strong>Communication:</strong> Technical documentation, code reviews, written design docs</p>
+                        <p><strong>Demand:</strong> Very High - automation focus, minimal verbal interaction</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>Penetration Tester</h4>
+                        <p><strong>Avg Salary (Germany):</strong> €54k - €85k</p>
+                        <p><strong>Communication:</strong> Comprehensive written reports, technical findings documentation</p>
+                        <p><strong>Demand:</strong> High - ethical hacking skills in demand</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>Digital Forensics</h4>
+                        <p><strong>Avg Salary (Europe):</strong> €60k - €95k</p>
+                        <p><strong>Communication:</strong> Detailed forensic reports, evidence documentation</p>
+                        <p><strong>Demand:</strong> Growing - incident response and legal cases</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <strong>Key Takeaway:</strong> Information Security Analysts rank among the top 15 fastest-growing professions globally through 2030, while network and cybersecurity skills are projected to be the second fastest-growing skill category worldwide. The global cybersecurity job market has 3.5 million unfilled positions as of 2025, creating exceptional opportunities for technically focused professionals who excel in written communication and analytical work.
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2>⚠️ Risks, Constraints & Mitigations</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4>Time Constraints</h4>
+                        <p><strong>Risk:</strong> Part-time study limits available hours</p>
+                        <p><strong>Mitigation:</strong> Use semester planning and SMART micro-goals (e.g., 2 labs/week, one Azure feature deep-dive/week)</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>Market Fluctuations</h4>
+                        <p><strong>Risk:</strong> Regional job market variations</p>
+                        <p><strong>Mitigation:</strong> Hedge with cloud + identity + detection skills, which remain cross-platform and high-value even in cooler markets</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h4>Certification Costs</h4>
+                        <p><strong>Risk:
